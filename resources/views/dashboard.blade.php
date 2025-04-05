@@ -127,7 +127,7 @@
                     $("#title").removeClass("show-title");
                     setTimeout(() => {
                         $("#title").html("&nbsp;");
-                    }, 200); // tunggu animasi selesai (sesuai transition duration CSS)
+                    }, 500); // tunggu animasi selesai (sesuai transition duration CSS)
                 }
             });
         });
